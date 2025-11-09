@@ -57,6 +57,14 @@ pip install -r requirements.txt
 ▶️ Run the Streamlit app
 streamlit run app.py
 
+## 🤖 Fine-Tuned Model
+This project uses a **DistilBERT** model fine-tuned on 560k+ Amazon product reviews.
+
+- **Model:** [Swastik2k04/sentiment-bert-ecommerce](https://huggingface.co/Swastik2k04/sentiment-bert-ecommerce)
+- **Frameworks:** PyTorch · Transformers · Streamlit
+- **Accuracy:** ~88.9% (Weighted F1: 0.89)
+- **Use Case:** Sentiment classification for e-commerce customer reviews
+
 
 Open your browser at http://localhost:8501
 
@@ -130,5 +138,6 @@ Swastik Dasgupta
 Hugging Face Transformers
 
 Streamlit
+
 
 PyTorch
