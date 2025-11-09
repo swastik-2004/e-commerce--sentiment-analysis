@@ -65,6 +65,13 @@ This project uses a **DistilBERT** model fine-tuned on 560k+ Amazon product revi
 - **Accuracy:** ~88.9% (Weighted F1: 0.89)
 - **Use Case:** Sentiment classification for e-commerce customer reviews
 
+  ## 📦 Dataset
+The full dataset (~560k reviews) is too large to store in GitHub.
+- Training data derived from Amazon product reviews (public domain):https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+- Preprocessed and cleaned into `cleaned_reviews.csv`
+- A small sample (`sample_reviews.csv`) is included for demonstration
+
+
 
 Open your browser at http://localhost:8501
 
@@ -141,3 +148,4 @@ Streamlit
 
 
 PyTorch
+
